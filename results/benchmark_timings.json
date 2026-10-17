@@ -1,0 +1,82 @@
+[
+  {
+    "n": 10,
+    "edges": 14,
+    "candidate_pairs": 45,
+    "mean_brute_force_sec": 0.0031410600058734417,
+    "std_brute_force_sec": 0.0004085639588662603,
+    "mean_all_pairs_sec": 6.357003003358841e-05,
+    "std_all_pairs_sec": 1.6444395619570942e-06,
+    "speedup": 49.411019692987466
+  },
+  {
+    "n": 15,
+    "edges": 41,
+    "candidate_pairs": 105,
+    "mean_brute_force_sec": 0.009903119970113039,
+    "std_brute_force_sec": 0.00150876209721688,
+    "mean_all_pairs_sec": 6.783995777368546e-05,
+    "std_all_pairs_sec": 1.2626601548156359e-06,
+    "speedup": 145.9776847613896
+  },
+  {
+    "n": 20,
+    "edges": 69,
+    "candidate_pairs": 190,
+    "mean_brute_force_sec": 0.022401220025494696,
+    "std_brute_force_sec": 0.0012913916340578611,
+    "mean_all_pairs_sec": 6.970001850277185e-05,
+    "std_all_pairs_sec": 1.1198465807883482e-06,
+    "speedup": 321.3947500545332
+  },
+  {
+    "n": 30,
+    "edges": 144,
+    "candidate_pairs": 435,
+    "mean_brute_force_sec": 0.0900545900221914,
+    "std_brute_force_sec": 0.02000371091633493,
+    "mean_all_pairs_sec": 9.145999792963267e-05,
+    "std_all_pairs_sec": 5.003674915427953e-06,
+    "speedup": 984.6336328531021
+  },
+  {
+    "n": 40,
+    "edges": 248,
+    "candidate_pairs": 780,
+    "mean_brute_force_sec": 0.2672687600366771,
+    "std_brute_force_sec": 0.01824599537546605,
+    "mean_all_pairs_sec": 9.516999125480652e-05,
+    "std_all_pairs_sec": 5.639708996248001e-07,
+    "speedup": 2808.3301943476727
+  },
+  {
+    "n": 50,
+    "edges": 422,
+    "candidate_pairs": 1225,
+    "mean_brute_force_sec": 1.8434900500113145,
+    "std_brute_force_sec": 0.8817548827601661,
+    "mean_all_pairs_sec": 0.00013811003882437944,
+    "std_all_pairs_sec": 1.3204257758595561e-05,
+    "speedup": 13347.980101254581
+  },
+  {
+    "n": 75,
+    "edges": 1022,
+    "candidate_pairs": 2775,
+    "mean_brute_force_sec": null,
+    "std_brute_force_sec": null,
+    "mean_all_pairs_sec": 0.0002768300240859389,
+    "std_all_pairs_sec": 5.271137924770658e-05,
+    "speedup": null
+  },
+  {
+    "n": 100,
+    "edges": 1777,
+    "candidate_pairs": 4950,
+    "mean_brute_force_sec": null,
+    "std_brute_force_sec": null,
+    "mean_all_pairs_sec": 0.0004550000419840217,
+    "std_all_pairs_sec": 7.664861583241783e-06,
+    "speedup": null
+  }
+]
