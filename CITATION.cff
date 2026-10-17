@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this research or software, please cite it as below."
+authors:
+  - family-names: "Pardeshi"
+    given-names: "Rajveersinh Vishal"
+    affiliation: "Independent Researcher"
+title: "Exact Rational Perturbation Theory, Monotonicity Phase Transitions, and Fast All-Pairs Optimization for Kemeny's Constant in Complex Networks"
+version: 1.0.0
+date-released: 2026-10-17
+url: "https://github.com/rajveersinh-is-dev/kemeny-perturbation-theory"
+repository-code: "https://github.com/rajveersinh-is-dev/kemeny-perturbation-theory"
+keywords:
+  - "Kemeny's constant"
+  - "spectral graph theory"
+  - "Markov chains"
+  - "random walks"
+  - "effective resistance"
+  - "Braess's paradox"
+  - "graph Laplacian"
+license: "MIT"
