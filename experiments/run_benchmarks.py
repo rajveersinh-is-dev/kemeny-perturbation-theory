@@ -10,19 +10,21 @@ runs, over 10 independent trials per graph size.
 
 from __future__ import annotations
 
+from typing import Dict, List
 import csv
 import json
 import os
 import sys
 import time
-from typing import Dict, List
 
+from src.kemeny_perturbation import KemenyPerturbationEngine
 import networkx as nx
 import numpy as np
 
+
+
 # Ensure project root is in python path
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
-from src.kemeny_perturbation import KemenyPerturbationEngine
 
 
 def run_benchmarks() -> Dict[str, object]:
