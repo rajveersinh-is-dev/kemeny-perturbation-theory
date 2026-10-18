@@ -21,11 +21,13 @@ lookup tables or synthetic constants.
 
 from __future__ import annotations
 
+from typing import Dict, Tuple
 import enum
-from typing import Dict, List, Optional, Tuple
 
-import numpy as np
 from scipy import optimize
+import numpy as np
+
+
 
 
 class EdgeRegime(str, enum.Enum):
@@ -48,6 +50,12 @@ class KemenyPerturbationEngine:
     """
 
     def __init__(self, adjacency_matrix: np.ndarray) -> None:
+        """Init.
+        
+        Args:
+            adjacency_matrix:
+        
+        """
         A = np.asarray(adjacency_matrix, dtype=np.float64)
         if A.ndim != 2 or A.shape[0] != A.shape[1]:
             raise ValueError("Adjacency matrix must be square (n x n).")
@@ -256,6 +264,15 @@ class KemenyPerturbationEngine:
 
             # Find interior optimal weight w_opt in (0, w_crit) by minimizing Delta K(w)
             def dK_objective(w_val: float) -> float:
+                """D K objective.
+                
+                Args:
+                    w_val:
+                
+                Returns:
+                    The computed result
+                
+                """
                 return self.compute_edge_perturbation_algebraic(u, v, w_val)
 
             res = optimize.minimize_scalar(

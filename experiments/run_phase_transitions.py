@@ -6,17 +6,19 @@ Affiliation: Independent Researcher
 
 from __future__ import annotations
 
+from typing import Dict, List
 import json
 import os
 import sys
-from typing import Dict, List
 
+from src.kemeny_perturbation import EdgeRegime, KemenyPerturbationEngine
 import networkx as nx
 import numpy as np
 
+
+
 # Ensure project root is in python path
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
-from src.kemeny_perturbation import EdgeRegime, KemenyPerturbationEngine
 
 
 def analyze_regime_distribution() -> Dict[str, object]:
