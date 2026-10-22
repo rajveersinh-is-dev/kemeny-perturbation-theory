@@ -4,9 +4,11 @@
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![arXiv](https://img.shields.io/badge/arXiv-Preprint-b31b1b.svg)](https://github.com/rajveersinh-is-dev/kemeny-perturbation-theory/tree/main/paper)
 [![Tests](https://img.shields.io/badge/tests-passing-brightgreen.svg)](https://github.com/rajveersinh-is-dev/kemeny-perturbation-theory/actions)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23572394.svg)](https://doi.org/10.5281/zenodo.23572394)
 
 **Author:** Rajveersinh Vishal Pardeshi  
 **Affiliation:** Independent Researcher  
+**DOI:** [10.5281/zenodo.23572394](https://doi.org/10.5281/zenodo.23572394)  
 **Target Journal:** *Information and Inference: A Journal of the IMA* (Oxford University Press)  
 **Publishing Route:** Standard Subscription License (Verified zero mandatory author publication fee)
 
@@ -158,7 +160,9 @@ tectonic main.tex
 
 ## Citation
 
-If you find this work or software useful in your research, please cite:
+If you find this work or software useful in your research, please cite the archived preprint:
+
+**DOI:** [10.5281/zenodo.23572394](https://doi.org/10.5281/zenodo.23572394)
 
 ```bibtex
 @article{pardeshi2026exact,
@@ -166,7 +170,8 @@ If you find this work or software useful in your research, please cite:
   title     = {Exact Rational Perturbation Theory, Monotonicity Phase Transitions, and Fast All-Pairs Optimization for {K}emeny's Constant in Complex Networks},
   journal   = {Preprint},
   year      = {2026},
-  url       = {https://github.com/rajveersinh-is-dev/kemeny-perturbation-theory}
+  doi       = {10.5281/zenodo.23572394},
+  url       = {https://doi.org/10.5281/zenodo.23572394}
 }
 ```
 

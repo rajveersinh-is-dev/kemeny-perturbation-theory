@@ -34,4 +34,5 @@ latexmk -pdf main.tex
 - **Affiliation:** Independent Researcher
 - **Target Journal:** *Information and Inference: A Journal of the IMA* (Oxford University Press)
 - **Publishing Route:** Standard Subscription License (Zero mandatory author publication fee)
+- **DOI:** [10.5281/zenodo.23572394](https://doi.org/10.5281/zenodo.23572394)
 - **License:** Creative Commons Attribution 4.0 International (CC-BY 4.0)

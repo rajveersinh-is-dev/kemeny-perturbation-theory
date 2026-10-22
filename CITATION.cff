@@ -9,6 +9,7 @@ version: 1.0.0
 date-released: 2026-10-17
 url: "https://github.com/rajveersinh-is-dev/kemeny-perturbation-theory"
 repository-code: "https://github.com/rajveersinh-is-dev/kemeny-perturbation-theory"
+doi: "10.5281/zenodo.23572394"
 keywords:
   - "Kemeny's constant"
   - "spectral graph theory"
